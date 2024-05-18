@@ -41,16 +41,19 @@ a{
     letter-spacing: 0.02em;
 }
 
-.header-menu-list .header-menu-link:hover{
+.header-menu-link:hover{
+    color: #404bbf;
+    }
+
+.header-menu-link:focus {
     color: #404bbf;
 }
 
-.header-menu-list .header-menu-link:focus {
+.address-menu-link:hover{
     color: #404bbf;
-}
+} 
 
-.address-menu-list .address-menu-link:hover 
-.address-menu-list .address-menu-link:focus {
+.address-menu-link:focus {
     color: #404bbf;
 }
 
@@ -110,7 +113,10 @@ a{
     background: #4D5AE5
 }
 
-.button:hover
+.button:hover {
+    background-color: #404bbf;
+}
+
 .button:focus {
     background-color: #404bbf;
 }
@@ -118,7 +124,6 @@ a{
 .button {
     cursor: pointer;
 }
-
 /* --------- section two-------------- */
 
 .section-feactures {}
@@ -153,7 +158,9 @@ a{
 
 /* --------- section 3-------------- */
 
-.section-team {}
+.section-team {
+    background-color: #F4F4FD
+}
 
 .feactures-team, .portfolio-head{
     text-align: center;
@@ -164,7 +171,9 @@ a{
     background-color: #FFFFFF
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF
+}
 
 .team-img {}
 
