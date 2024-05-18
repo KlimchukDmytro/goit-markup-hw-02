@@ -113,12 +113,12 @@ a{
     background: #4D5AE5
 }
 
-.button:hover {
+.section-solutions .button:hover {
     color: #404bbf;
     cursor: pointer;
 }
 
-.button:focus {
+.section-solutions .button:focus {
     color: #404bbf;
     cursor: pointer;
 }
@@ -192,7 +192,9 @@ a{
 
 
 
-.section-portfolio {}
+.section-portfolio {
+    background-color: #FFFFFF;
+}
 
 .portfolio-head {}
 
@@ -243,5 +245,5 @@ a{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: #F4F4FD;
 }
