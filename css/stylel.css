@@ -9,23 +9,204 @@ a{
     text-decoration: none;
 }
 
+.header{
+}
+
 .header-logo{
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);   
+    color: #2e2f42;   
 }
 .header-logo-blue{
-    color: blue;
+    color: #4d5ae5;
 }
 
-.header-menu-item{
+.header-menu-list{
+}
+
+.header-menu-link {
+color: #2e2f42;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+
 }
 
+/* --------------------------------- */
+.header-menu-link {
+}
+
+.address {
+}
+.address-menu-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.address {}
+
+.address-menu-list {}
+
+.address-menu-item {}
+
+.address-menu-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color:#434455;
+}
+
+/* --------- section one-------------- */
+
+.section-team{
+    background: #F4F4FD;
+}
+.section-solutions {
+    background: #2E2F42
+}
+
+.solutions-head {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+   color: #FFFFFF;
+    background: #4D5AE5
+
+}
+
+/* --------- section two-------------- */
+
+.section-feactures {}
+
+.feactures-head, .feactures-team, .portfolio-head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;}
+
+.feactures-list {}
+
+.feactures-item {}
+
+.feactures-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.feactures-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* --------- section 3-------------- */
+
+.section-team {}
+
+.feactures-team, .portfolio-head{
+    text-align: center;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {
+    width: 264px;
+    height: 260px;
+    /* background: url("path_to_image"); */
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+
+
+.section-portfolio {}
+
+.portfolio-head {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {
+    width: 360px;
+     height: 300px;
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ------THE END------- */
+
+.footer {
+    width: 1440px;
+    height: 312px;
+    background: #2E2F42;
+}
+
+.footer-link {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
